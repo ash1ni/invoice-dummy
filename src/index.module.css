@@ -1,0 +1,803 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.invoiceContainerRootRoot {
+  gap: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.invoiceGroup {
+  width: 20.65%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.invoiceEllipse {
+  width: 34px;
+  left: 32px;
+  top: 1051px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 4.5px 4.84px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-image: url("https://file.rendit.io/n/b4n8YhImBLNiQENJTSYO.svg");
+}
+.invoiceVectorPrimary {
+  width: 53.53%;
+  min-width: 0px;
+  height: 20px;
+  min-height: 0px;
+  left: 7.90203857421875px;
+  top: 7.002105712890625px;
+  position: absolute;
+  box-sizing: border-box;
+}
+.invoiceVectorSecondary {
+  width: 99.92%;
+  min-width: 0px;
+  max-width: 100%;
+  min-height: 0px;
+  position: relative;
+  box-sizing: border-box;
+}
+.invoiceRectangle {
+  width: 92.29%;
+  height: 50px;
+  left: 13px;
+  top: 158px;
+  position: absolute;
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 21px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: rgba(17, 97, 214, 0);
+}
+.invoiceCreateNewFolder {
+  width: 20px;
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.invoiceVectorPrimary1 {
+  width: 80%;
+  min-width: 0px;
+  height: 12px;
+  min-height: 0px;
+  left: 2px;
+  top: 2px;
+  position: absolute;
+  box-sizing: border-box;
+}
+.invoiceVectorSecondary1 {
+  width: 100%;
+  min-width: 0px;
+  max-width: 100%;
+  min-height: 0px;
+  position: relative;
+  box-sizing: border-box;
+}
+.invoiceDocumentGeneration {
+  color: #f5f5f5;
+  font-size: 20px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+.invoiceDocumentDetails {
+  width: 100%;
+  position: relative;
+  gap: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px 24px 533px 24px;
+  box-sizing: border-box;
+  background-color: #00204e;
+}
+.invoiceGroup1 {
+  width: 180px;
+  gap: 5.88px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px 0px 27px 2px;
+  box-sizing: border-box;
+}
+.invoicePath {
+  width: 51%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 13.3px 30.8px 0.35px 30.8px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-image: url("https://file.rendit.io/n/lsyhaFe71wBrbCd0qI60.svg");
+}
+.invoicePath1 {
+  width: 24.05%;
+  min-width: 0px;
+  max-width: 100%;
+  min-height: 0px;
+  box-sizing: border-box;
+}
+.invoicePath2 {
+  width: 48.99%;
+  min-width: 0px;
+  max-width: 100%;
+  min-height: 0px;
+  margin: 0.06px 0px 0px 0px;
+  box-sizing: border-box;
+}
+.rectangle {
+  width: 100%;
+  gap: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-end;
+  margin: 0px 0px 38px 0px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: rgba(17, 97, 214, 0.05);
+}
+.frame1 {
+  width: 19.27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px 0px 8px 0px;
+  padding: 2px 8px;
+  border-width: 1px;
+  border-radius: 6.5px;
+  border-style: solid;
+  border-color: #ffffff;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.g {
+  color: #1061d6;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Nunito Sans;
+  line-height: 36px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.group {
+  width: 61.01%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 7px 15px 0px 0px;
+  padding: 25px 0px 0px 0px;
+  box-sizing: border-box;
+}
+.entityName {
+  width: 100%;
+  height: 54.55%;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  color: #f5f5f5;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+.addWebsite {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #f5f5f5;
+  font-size: 14px;
+  font-family: Public Sans;
+  line-height: 18px;
+  text-decoration-line: underline;
+  box-sizing: border-box;
+}
+.ellipse {
+  width: 12.84%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: center;
+  align-items: flex-start;
+  padding: 5.67px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-image: url("https://file.rendit.io/n/fp1oZnFNuvWI79ybyJkU.svg");
+}
+.vector {
+  width: 100.2%;
+  min-width: 0px;
+  max-width: 100%;
+  min-height: 0px;
+  box-sizing: border-box;
+}
+.invoiceGroup2 {
+  width: 193px;
+  gap: 19.1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px 0px 25px 22px;
+  box-sizing: border-box;
+}
+.invoiceVector {
+  width: 9.2%;
+  min-width: 0px;
+  max-width: 100%;
+  min-height: 0px;
+  box-sizing: border-box;
+}
+.invoiceDocumentGeneration1 {
+  color: #f5f5f5;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.invoiceGroup3 {
+  width: 256px;
+  gap: 15.1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px 0px 22px 18px;
+  box-sizing: border-box;
+}
+.invoiceVectorPrimary2 {
+  width: 10.63%;
+  min-width: 0px;
+  max-width: 100%;
+  min-height: 0px;
+  margin: 2px 0px 0px 0px;
+  box-sizing: border-box;
+}
+.invoiceDocumentStorage {
+  margin: 0px 54.8px 0px 0px;
+  color: #f5f5f5;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.invoiceVectorSecondary2 {
+  width: 5.32%;
+  min-width: 0px;
+  max-width: 100%;
+  min-height: 0px;
+  align-self: flex-end;
+  margin: 0px 0px 6px 0px;
+  box-sizing: border-box;
+}
+.invoiceGroup4 {
+  width: 254px;
+  gap: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px 0px 20px 19.9px;
+  box-sizing: border-box;
+}
+.invoiceVectorPrimary3 {
+  width: 8.43%;
+  min-width: 0px;
+  max-width: 100%;
+  min-height: 0px;
+  box-sizing: border-box;
+}
+.invoiceManagement {
+  margin: 0px 36.8px 0px 0px;
+  color: #f5f5f5;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.invoiceVectorSecondary3 {
+  width: 5.56%;
+  min-width: 0px;
+  max-width: 100%;
+  min-height: 0px;
+  margin: 6px 0px 0px 0px;
+  box-sizing: border-box;
+}
+.newInvoiceButton {
+  margin: 0px 0px 14px 57px;
+  color: #f5f5f5;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.invoiceSummaryButton {
+  margin: 0px 0px 0px 57px;
+  color: #f5f5f5;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.invoiceGroup5 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.clientListButton {
+  width: 73px;
+  height: 20px;
+  left: 57px;
+  top: 14px;
+  position: absolute;
+  color: #f5f5f5;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.invoiceRectangle1 {
+  width: 100%;
+  height: 52px;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: rgba(17, 97, 214, 0.2);
+}
+.invoiceGroup6 {
+  width: 77.46%;
+  gap: 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-end;
+  margin: 0px 0px 22px 0px;
+  box-sizing: border-box;
+}
+.invoiceGroup7 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0px 0px 3px 0px;
+  box-sizing: border-box;
+}
+.invoiceSummaryButton1 {
+  margin: 12px 0px 0px 0px;
+  color: #323232;
+  font-size: 20px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+.invoiceEllipse1 {
+  width: 3.43%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 15px 11px 15px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-image: url("https://file.rendit.io/n/dkbnhSmoUMBiih0CupEU.svg");
+}
+.aElement {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Nunito Sans;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.invoiceClientDetails {
+  width: 100%;
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 49px 32px 228px 32px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 53px 0px rgba(204, 204, 204, 0.3);
+}
+.invoiceGroup8 {
+  width: 270px;
+  gap: 58px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px 0px 34px 0px;
+  box-sizing: border-box;
+}
+.activeClientsButton {
+  color: #1061d6;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+.deletedClientsButton {
+  color: #b5bbc5;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+.deleteButton {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 0px 6px 0px;
+  padding: 0px;
+  padding-top: 11px;
+  padding-right: 25px;
+  padding-bottom: 11px;
+  padding-left: 25px;
+  border-width: 0px;
+  border-radius: 8px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-color: #b5bbc5;
+  box-sizing: content-box;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.deleteButton:hover {
+  opacity: 70%;
+}
+.deleteButtonText {
+  color: #757575;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+.invoiceRectangle2 {
+  width: 100%;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: center;
+  align-items: flex-end;
+  padding: 21px 14px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+.invoiceRectangle3 {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin: 0px 0px 2px 0px;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #b5bbc5;
+  box-sizing: border-box;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-blend-mode: ;
+  background-image: ;
+}
+.clientNameText {
+  margin: 4px 35px 0px 0px;
+  color: #323232;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.phoneText {
+  margin: 0px 79px 0px 0px;
+  color: #323232;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.emailText {
+  margin: 0px 168px 0px 0px;
+  color: #323232;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.gstinTaxIdText {
+  margin: 0px 55px 0px 0px;
+  color: #323232;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.panText {
+  margin: 0px 64px 0px 0px;
+  color: #323232;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.countryText {
+  color: #323232;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.invoiceGroup9 {
+  width: 97.6%;
+  gap: 28.8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px 0px 4.5px 14px;
+  box-sizing: border-box;
+}
+.companyName {
+  width: 9.9%;
+  align-self: flex-end;
+  margin: 1px 31.2px 0px 0px;
+  color: #757575;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+.email {
+  margin: 0px 18.2px 0px 0px;
+  color: #757575;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.minusIcon {
+  margin: 1px 147px 0px 0px;
+  color: #757575;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.minusIcon1 {
+  margin: 2px 91.2px 0px 0px;
+  color: #757575;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.invoiceGroup10 {
+  width: 2.21%;
+  gap: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 9px 0px 0px 0px;
+  box-sizing: border-box;
+}
+.invoiceGroup11 {
+  width: 7.92%;
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 2.17px 0px 0px;
+  box-sizing: border-box;
+}
+.invoiceGroup12 {
+  width: 3.75%;
+  gap: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 6px 0px 0px 0px;
+  box-sizing: border-box;
+}
+.invoiceLine {
+  width: 100%;
+  height: 1px;
+  flex-shrink: 0;
+  align-self: center;
+  margin: 0px 0px 1.5px 0px;
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  border-color: #f5f5f5;
+  box-sizing: border-box;
+}
+.invoiceGroup13 {
+  width: 97.52%;
+  gap: 28.8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px 0px 5px 14px;
+  box-sizing: border-box;
+}
+.companyName1 {
+  width: 9.91%;
+  margin: 0px 31.2px 0px 0px;
+  color: #757575;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+.invoiceGroup15 {
+  width: 7.93%;
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3px 2.17px 0px 0px;
+  box-sizing: border-box;
+}
+.invoiceGroup17 {
+  width: 97.44%;
+  gap: 28.8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px 0px 5px 14px;
+  box-sizing: border-box;
+}
+.invoiceGroup21 {
+  width: 97.44%;
+  gap: 28.8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px 0px 0px 14px;
+  box-sizing: border-box;
+}
+.invoiceGroup25 {
+  width: 378px;
+  gap: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: flex-end;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.uploadClientsButton {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  padding-top: 11px;
+  padding-right: 35.5px;
+  padding-bottom: 11px;
+  padding-left: 35.5px;
+  border-width: 0px;
+  border-radius: 8px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-color: #1061d6;
+  box-sizing: content-box;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.uploadClientsButton:hover {
+  opacity: 70%;
+}
+.uploadClientsButtonText {
+  color: #1061d6;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+.addClientButton {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  padding-top: 12px;
+  padding-right: 51.5px;
+  padding-bottom: 12px;
+  padding-left: 51.5px;
+  border-width: 0px;
+  border-radius: 8px;
+  box-sizing: content-box;
+  background-color: #1061d6;
+  cursor: pointer;
+}
+.addClientButton:hover {
+  opacity: 70%;
+}
+.addClientButtonText {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
