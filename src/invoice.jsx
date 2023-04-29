@@ -12,7 +12,7 @@ export const InvoiceContainerRootRoot1 = function ({ }) {
     alert(`${name} was clicked`);
   };
   return (
-    <InvoiceContainerRootRoot>
+<InvoiceContainerRootRoot class="text-lg lg:text-lg">
       <InvoiceGroup>
         <InvoiceEllipse>
           <InvoiceVectorPrimary src="https://file.rendit.io/n/g4qhQkOC8rxUywLcpMZZ.svg" />
